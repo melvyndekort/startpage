@@ -4,18 +4,15 @@
         {% include template/head.html %}
     </head>
     <body class="d-flex flex-column h-100">
-        <div id="skip-to-content"><a href="#maincontent">Skip to main content</a></div>
         {% include template/header.html %}
         <main id="maincontent" role="main" aria-label="Content" class="flex-shrink-0">
-            <div class="row">
-                <div class="col-sm-6">
-                {% include search.html button="DuckDuckGo search" link="https://duckduckgo.com/" focus=true %}
-                </div>
-                <div class="col-sm-6">
-                {% include search.html button="Google search" link="https://google.com/search" %}
-                </div>
+            <div class="container my-3">
+                {% include search.html engine="DuckDuckGo" link="https://duckduckgo.com/" focus=true %}
             </div>
-        {{ content }}
+            <div class="container my-3">
+                {% include search.html engine="Google" link="https://google.com/search" %}
+            </div>
+            {{ content }}
         </main>
         {% include template/footer.html %}
         {% include template/foot.html %}

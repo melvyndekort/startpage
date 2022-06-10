@@ -1,6 +1,4 @@
 ---
 title: Main
-layout: page
+layout: data
 ---
-
-testje

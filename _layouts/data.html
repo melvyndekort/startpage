@@ -1,0 +1,27 @@
+---
+layout: default 
+---
+<div class="container mt-5">
+  <div class="accordion accordion-flush" id="bookmarks">
+    {% for section in site.data.bookmarks %}
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="header{{ section.category }}">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ section.category }}" aria-expanded="true" aria-controls="collapse{{ section.category }}">
+          {{ section.category }}
+        </button>
+      </h2>
+      <div id="collapse{{ section.category }}" class="accordion-collapse collapse" aria-labelledby="heading{{ section.category }}" data-bs-parent="#bookmarks">
+        <div class="accordion-body">
+          <div class="row row-cols-5">
+            {% for site in section.sites %}
+            <div class="col">
+              <a href="{{ site.url }}" class="btn btn-secondary">{{ site.name }}</a>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

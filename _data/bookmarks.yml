@@ -1,0 +1,29 @@
+- category: LMServer
+  icon: 
+  sites:
+    - name: Muximux
+      icon: 
+      url: https://lmserver.mdekort.nl/
+    - name: NZBGet
+      icon: 
+      url: https://lmserver.mdekort.nl/nzbget/
+    - name: Radarr
+      icon: 
+      url: https://lmserver.mdekort.nl/radarr/
+    - name: Sonarr
+      icon: 
+      url: https://lmserver.mdekort.nl/sonarr/
+
+- category: SaaS
+  icon: 
+  sites:
+    - name: Humio
+      icon: 
+      url: https://cloud.humio.com/sandbox/dashboards/UysIYLnaNM3zr5oxgai9BLjIHqcJyuRr
+
+- category: Network
+  icon: 
+  sites:
+    - name: LMRouter
+      icon: 
+      url: http://lmrouter.mdekort.nl
