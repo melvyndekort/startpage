@@ -1,5 +1,5 @@
 ---
-title: Startpage
+title: Main
 layout: page
 ---
 

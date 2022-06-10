@@ -1,17 +1,6 @@
-<script>
-  function mysearch(curobj) {
-    curobj.q.value = curobj.qfront.value
-  }
-</script>
 <div class="input-group">
-  <form class="search navbar-form navbar-right" action="https://duckduckgo.com/" method="get" role="search" onSubmit="mysearch(this)"> 
+  <form class="search navbar-form navbar-right" action="{{ include.link }}" method="get" role="search" onSubmit="mysearch(this)"> 
     <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
-    <button type="button" class="btn btn-outline-primary">DuckDuckGo Search</button>
-  </form>
-</div>
-<div class="input-group">
-  <form class="search navbar-form navbar-right" action="http://www.google.com/search" method="get" role="search" onSubmit="mysearch(this)"> 
-    <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
-    <button type="button" class="btn btn-outline-primary">Google Search</button>
+    <button type="button" class="btn btn-outline-primary">{{ include.button }}</button>
   </form>
 </div>
