@@ -1,6 +1,8 @@
-<div class="input-group">
-  <form class="search navbar-form navbar-right" action="{{ include.link }}" method="get" role="search" onSubmit="mysearch(this)"> 
-    <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
-    <button type="submit" class="btn btn-outline-primary">{{ include.button }}</button>
-  </form>
+<div class="card text-center">
+  <div class="card-body">
+    <form class="search" action="{{ include.link }}" method="get" onSubmit="mysearch(this)"> 
+      <input type="search" name="q" class="form-control rounded" placeholder="Search" {% if include.focus == true %} autofocus{% endif %} />
+      <button type="submit" class="btn btn-outline-primary">{{ include.button }}</button>
+    </form>
+  </div>
 </div>

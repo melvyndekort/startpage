@@ -7,9 +7,13 @@
         <div id="skip-to-content"><a href="#maincontent">Skip to main content</a></div>
         {% include template/header.html %}
         <main id="maincontent" role="main" aria-label="Content" class="flex-shrink-0">
-            <div class="d-flex justify-content-center">
-            {% include search.html button="DuckDuckGo search" link="https://duckduckgo.com/" %}
-            {% include search.html button="Google search" link="https://google.com/search" %}
+            <div class="row">
+                <div class="col-sm-6">
+                {% include search.html button="DuckDuckGo search" link="https://duckduckgo.com/" focus=true %}
+                </div>
+                <div class="col-sm-6">
+                {% include search.html button="Google search" link="https://google.com/search" %}
+                </div>
             </div>
         {{ content }}
         </main>
