@@ -7,7 +7,7 @@
 #skip-to-content a {
 	padding:6px;
 	position: absolute;
-	top:-200px;
+	top:-45px;
 	left:0px;
 	color:white;
 	border-right:1px solid white;
@@ -29,23 +29,16 @@
 
 /* change default text colors */
 body {
-    @if variable-exists(base-font-family) { font-family: $base-font-family; }
-    @if variable-exists(base-font-size) { font-size: $base-font-size; }
     @if variable-exists(text-color) { color: $text-color; }
-    @if variable-exists(code-font-family) { code { font-family: $code-font-family; } }
 }
-@if variable-exists(link-color) {
-    a {
-        color: $link-color;
+a {
+    @if variable-exists(link-color) { 
+        color: $link-color; 
         @if variable-exists(text-color) {
-            &:hover {
-                color: $text-color; 
-            }
+            &:hover { color: $text-color; }
         }
     }
 }
-/* remove link underline */ 
-a { text-decoration: none; }
 
 /* narrow container */ 
 @if variable-exists(container-narrow) { 
@@ -82,6 +75,22 @@ a { text-decoration: none; }
     .feature-w-100 {
         width: 100%!important;
     }
+    .feature-float-right {
+        float: right!important;
+    }
+    .feature-float-left {
+        float: left!important;
+    } 
+}
+
+/* scroll to top */
+#scroll-to-top {
+    display: none; 
+    position: fixed; 
+    bottom: 35px; 
+    right: 20px; 
+    z-index: 99;
+    font-size: 40px; 
 }
 
 /* bootstrap icons tweaks */

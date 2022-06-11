@@ -3,15 +3,17 @@
     <head>
         {% include template/head.html %}
     </head>
-    <body class="d-flex flex-column h-100">
+    <body class="d-flex flex-column h-100 bg-dark">
         {% include template/header.html %}
-        <main id="maincontent" role="main" aria-label="Content" class="flex-shrink-0">
+        <div class="container-fluid py-5 bg-background">
             <div class="container my-3">
                 {% include search.html engine="DuckDuckGo" link="https://duckduckgo.com/" focus=true %}
             </div>
             <div class="container my-3">
                 {% include search.html engine="Google" link="https://google.com/search" %}
             </div>
+        </div>
+        <main id="maincontent" role="main" aria-label="Content" class="flex-shrink-0">
             {{ content }}
         </main>
         {% include template/footer.html %}
