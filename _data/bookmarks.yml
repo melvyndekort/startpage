@@ -49,7 +49,7 @@
           url: http://lmrouter.mdekort.nl
         - name: Pi-hole
           icon: fa-solid fa-rectangle-ad
-          url: http://pihole.mdekort.nl
+          url: http://pihole.mdekort.nl/admin/
         - name: Tuinhuis MoOde
           icon: bi bi-music-note
           url: http://tuinhuis.mdekort.lan
