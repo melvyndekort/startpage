@@ -1,102 +1,102 @@
-- category: LMServer & Downloads
-  icon: 
-  sites:
-    - name: Muximux
+- section: Main
+  categories:
+    - name: LMServer & Downloads
       icon: 
-      url: https://lmserver.mdekort.nl
-    - name: Jellyfin
-      icon: 
-      url: https://lmserver.mdekort.nl/jellyfin
-    - name: OpenSubtitles
-      icon: 
-      url: https://www.opensubtitles.org/nl
-    - name: SpotWeb
-      icon: 
-      url: http://www.nzbserver.com/
-    - name: NZB Index
-      icon: 
-      url: http://www.nzbindex.nl/
-    - name: EZTV
-      icon: 
-      url: https://eztv.re/
-    - name: RARBG
-      icon: 
-      url: https://rarbg.to
+      sites:
+        - name: Muximux
+          icon: 
+          url: https://lmserver.mdekort.nl
+        - name: Jellyfin
+          icon: 
+          url: https://lmserver.mdekort.nl/jellyfin
+        - name: OpenSubtitles
+          icon: 
+          url: https://www.opensubtitles.org/nl
+        - name: SpotWeb
+          icon: 
+          url: http://www.nzbserver.com/
+        - name: NZB Index
+          icon: 
+          url: http://www.nzbindex.nl/
+        - name: EZTV
+          icon: 
+          url: https://eztv.re/
+        - name: RARBG
+          icon: 
+          url: https://rarbg.to
 
-- category: SaaS
-  icon: 
-  sites:
-    - name: AWS
+    - name: SaaS
       icon: 
-      url: https://eu-west-1.console.aws.amazon.com/console/
-    - name: Humio
-      icon: 
-      url: https://cloud.humio.com/sandbox/dashboards/UysIYLnaNM3zr5oxgai9BLjIHqcJyuRr
-    - name: Datadog
-      icon: 
-      url: https://app.datadoghq.eu
-    - name: PagerDuty
-      icon: 
-      url: https://mdekort.eu.pagerduty.com
-    - name: Backblaze B2
-      icon: 
-      url: https://secure.backblaze.com
-    - name: EasyDMARC
-      icon: 
-      url: https://app.easydmarc.com
-    - name: ForwardEmail
-      icon: 
-      url: https://forwardemail.net/en/my-account/domains
-    - name: ImprovMX
-      icon: 
-      url: https://app.improvmx.com
-    - name: Linktree
-      icon: 
-      url: https://linktr.ee/melvyndekort
+      sites:
+        - name: AWS
+          icon: 
+          url: https://eu-west-1.console.aws.amazon.com/console/
+        - name: Humio
+          icon: 
+          url: https://cloud.humio.com/sandbox/dashboards/UysIYLnaNM3zr5oxgai9BLjIHqcJyuRr
+        - name: Datadog
+          icon: 
+          url: https://app.datadoghq.eu
+        - name: PagerDuty
+          icon: 
+          url: https://mdekort.eu.pagerduty.com
+        - name: Backblaze B2
+          icon: 
+          url: https://secure.backblaze.com
+        - name: EasyDMARC
+          icon: 
+          url: https://app.easydmarc.com
+        - name: ForwardEmail
+          icon: 
+          url: https://forwardemail.net/en/my-account/domains
+        - name: ImprovMX
+          icon: 
+          url: https://app.improvmx.com
+        - name: Linktree
+          icon: 
+          url: https://linktr.ee/melvyndekort
 
-- category: Networking
-  icon: 
-  sites:
-    - name: LMRouter
+    - name: Networking
       icon: 
-      url: http://lmrouter.mdekort.nl
-    - name: Pi-hole
-      icon: 
-      url: http://pihole.mdekort.nl
-    - name: Tuinhuis MoOde
-      icon: 
-      url: http://tuinhuis.mdekort.lan
-    - name: TP-Link Repeater
-      icon: 
-      url: http://tplinkrepeater.net
+      sites:
+        - name: LMRouter
+          icon: 
+          url: http://lmrouter.mdekort.nl
+        - name: Pi-hole
+          icon: 
+          url: http://pihole.mdekort.nl
+        - name: Tuinhuis MoOde
+          icon: 
+          url: http://tuinhuis.mdekort.lan
+        - name: TP-Link Repeater
+          icon: 
+          url: http://tplinkrepeater.net
 
-- category: Miscellaneous
-  icon: 
-  sites:
-    - name: TSOpro
+    - name: Miscellaneous
       icon: 
-      url: https://marcopolo.tsopro.nl/
-    - name: Syncthing local
+      sites:
+        - name: TSOpro
+          icon: 
+          url: https://marcopolo.tsopro.nl/
+        - name: Syncthing local
+          icon: 
+          url: http://127.0.0.1:8384/
+        - name: MijnGezondheid
+          icon: 
+          url: https://home.mijngezondheid.net/
+
+- section: Work
+  categories:
+    - name: TODO
       icon: 
-      url: http://127.0.0.1:8384/
-    - name: MijnGezondheid
+      sites:
+        - name: TODO
+        - name: TODO
+
+- section: Miscellaneous
+  categories:
+    - name: TODO
       icon: 
-      url: https://home.mijngezondheid.net/
-
-- category: TODO
-  icon: 
-  sites:
-    - name: TODO
-    - name: TODO
-
-- category: TODO
-  icon: 
-  sites:
-    - name: TODO
-    - name: TODO
-
-- category: TODO
-  icon: 
-  sites:
-    - name: TODO
-    - name: TODO
+      sites:
+        - name: TODO
+        - name: TODO

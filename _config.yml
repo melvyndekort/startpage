@@ -27,7 +27,6 @@ source-code: https://github.com/melvyndekort/startpage.mdekort.nl
 # set noindex to true if you do NOT want Google to index your site
 noindex: true
 
-
 #######
 # BUILD SETTINGS [usually leave as is]
 #
