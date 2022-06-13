@@ -97,6 +97,18 @@ $yiq-text-light:            #fff !default;
         }
     }
 }
+/* mixin to create border variants */
+@mixin theme-border($parent, $color) {
+    #{$parent} {
+        border-color: $color !important;
+    }
+    a#{$parent},
+    button#{$parent} {
+        &:hover, &:focus {
+            border-color: darken($color, 10%) !important;
+        }
+    }
+}
 
 /* each function to create all the buttons */
 @each $color, $value in $theme-colors {
@@ -113,7 +125,15 @@ $yiq-text-light:            #fff !default;
 @each $color, $value in $theme-colors {
     @include theme-text(".text-#{$color}", $value);
 }
+/* each function to create link colors */
+@each $color, $value in $theme-colors {
+    @include theme-text(".link-#{$color}", $value);
+}
 /* each function to create background colors */ 
 @each $color, $value in $theme-colors {
     @include theme-bg(".bg-#{$color}", $value);
+}
+/* each function to create border colors */
+@each $color, $value in $theme-colors {
+    @include theme-border(".border-#{$color}", $value);
 }
