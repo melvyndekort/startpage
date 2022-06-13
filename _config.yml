@@ -40,4 +40,4 @@ defaults:
       permalink: /:basename:output_ext
 
 # ignore stuff
-exclude: [docs/, README.md, CNAME, .gitignore, Makefile]
+exclude: [docs/, README.md, CNAME, .gitignore, Dockerfile, Makefile]
