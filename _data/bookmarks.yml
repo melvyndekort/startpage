@@ -4,85 +4,85 @@
       icon: 
       sites:
         - name: Muximux
-          icon: 
+          icon: bi bi-server
           url: https://lmserver.mdekort.nl
         - name: Jellyfin
-          icon: 
+          icon: bi bi-collection-play
           url: https://lmserver.mdekort.nl/jellyfin
         - name: OpenSubtitles
-          icon: 
+          icon: bi bi-badge-cc
           url: https://www.opensubtitles.org/nl
         - name: SpotWeb
-          icon: 
+          icon: bi bi-file-arrow-down
           url: http://www.nzbserver.com/
         - name: NZB Index
-          icon: 
+          icon: bi bi-file-arrow-down
           url: http://www.nzbindex.nl/
         - name: EZTV
-          icon: 
+          icon: bi bi-file-arrow-down-fill
           url: https://eztv.re/
         - name: RARBG
-          icon: 
+          icon: bi bi-file-arrow-down-fill
           url: https://rarbg.to
 
     - name: SaaS
       icon: 
       sites:
         - name: AWS
-          icon: 
+          icon: fa-brands fa-aws
           url: https://eu-west-1.console.aws.amazon.com/console/
         - name: Humio
-          icon: 
+          icon: fa-brands fa-earlybirds
           url: https://cloud.humio.com/sandbox/dashboards/UysIYLnaNM3zr5oxgai9BLjIHqcJyuRr
         - name: Datadog
-          icon: 
+          icon: fa-solid fa-dog
           url: https://app.datadoghq.eu
         - name: PagerDuty
-          icon: 
+          icon: fa-solid fa-pager
           url: https://mdekort.eu.pagerduty.com
         - name: Backblaze B2
-          icon: 
+          icon: bi bi-hdd
           url: https://secure.backblaze.com
         - name: EasyDMARC
-          icon: 
+          icon: bi bi-envelope-slash
           url: https://app.easydmarc.com
         - name: ForwardEmail
-          icon: 
+          icon: bi bi-forward
           url: https://forwardemail.net/en/my-account/domains
         - name: ImprovMX
-          icon: 
+          icon: bi bi-forward
           url: https://app.improvmx.com
         - name: Linktree
-          icon: 
+          icon: bi bi-link
           url: https://linktr.ee/melvyndekort
 
     - name: Networking
       icon: 
       sites:
         - name: LMRouter
-          icon: 
+          icon: bi bi-router
           url: http://lmrouter.mdekort.nl
         - name: Pi-hole
-          icon: 
+          icon: fa-solid fa-rectangle-ad
           url: http://pihole.mdekort.nl
         - name: Tuinhuis MoOde
-          icon: 
+          icon: bi bi-music-note
           url: http://tuinhuis.mdekort.lan
         - name: TP-Link Repeater
-          icon: 
+          icon: fa-solid fa-house-signal
           url: http://tplinkrepeater.net
 
     - name: Miscellaneous
       icon: 
       sites:
         - name: TSOpro
-          icon: 
+          icon: fa-solid fa-school
           url: https://marcopolo.tsopro.nl/
         - name: Syncthing local
-          icon: 
+          icon: fa-solid fa-rotate
           url: http://127.0.0.1:8384/
         - name: MijnGezondheid
-          icon: 
+          icon: fa-solid fa-house-medical
           url: https://home.mijngezondheid.net/
 
 - section: Work
