@@ -35,3 +35,8 @@ $theme-colors: map-merge(
 @import
   "theme-colors", "template", "custom"
 ;
+
+// Custom bookmark component
+.bookmark {
+  width: 200px;
+}

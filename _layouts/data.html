@@ -15,7 +15,11 @@ layout: default
           <div class="row row-cols-5">
             {% for site in section.sites %}
             <div class="col">
-              <a href="{{ site.url }}" class="btn btn-purple text-dark">{{ site.name }}</a>
+              <a href="{{ site.url }}" class="link-pink text-decoration-none fs-5">
+                <div class="bookmark p-3 bg-secondary bg-gradient rounded-3 border-start border-3 border-primary shadow overflow-hidden">
+                  {{ site.name }}
+                </div>
+              </a>
             </div>
             {% endfor %}
           </div>

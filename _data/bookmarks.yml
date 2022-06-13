@@ -13,6 +13,9 @@
     - name: Sonarr
       icon: 
       url: https://lmserver.mdekort.nl/sonarr/
+    - name: Bazarr
+      icon: 
+      url: https://lmserver.mdekort.nl/bazarr/
 
 - category: SaaS
   icon: 
@@ -27,3 +30,6 @@
     - name: LMRouter
       icon: 
       url: http://lmrouter.mdekort.nl
+    - name: Pi-hole
+      icon: 
+      url: http://pihole.mdekort.nl
