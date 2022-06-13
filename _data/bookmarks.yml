@@ -1,7 +1,6 @@
 - section: Main
   categories:
-    - name: LMServer & Downloads
-      icon: 
+    - name: LMServer & Media
       sites:
         - name: Muximux
           icon: bi bi-server
@@ -12,21 +11,8 @@
         - name: OpenSubtitles
           icon: bi bi-badge-cc
           url: https://www.opensubtitles.org/nl
-        - name: SpotWeb
-          icon: bi bi-file-arrow-down
-          url: http://www.nzbserver.com/
-        - name: NZB Index
-          icon: bi bi-file-arrow-down
-          url: http://www.nzbindex.nl/
-        - name: EZTV
-          icon: bi bi-file-arrow-down-fill
-          url: https://eztv.re/
-        - name: RARBG
-          icon: bi bi-file-arrow-down-fill
-          url: https://rarbg.to
 
     - name: SaaS
-      icon: 
       sites:
         - name: AWS Console
           icon: fa-brands fa-aws
@@ -57,7 +43,6 @@
           url: https://linktr.ee/melvyndekort
 
     - name: Networking
-      icon: 
       sites:
         - name: LMRouter
           icon: bi bi-router
@@ -72,8 +57,25 @@
           icon: fa-solid fa-house-signal
           url: http://tplinkrepeater.net
 
+    - name: NZB
+      sites:
+        - name: SpotWeb
+          icon: bi bi-file-arrow-down
+          url: http://www.nzbserver.com/
+        - name: NZB Index
+          icon: bi bi-file-arrow-down
+          url: http://www.nzbindex.nl/
+
+    - name: Torrents
+      sites:
+        - name: EZTV
+          icon: bi bi-file-arrow-down-fill
+          url: https://eztv.re/
+        - name: RARBG
+          icon: bi bi-file-arrow-down-fill
+          url: https://rarbg.to
+
     - name: Miscellaneous
-      icon: 
       sites:
         - name: TSOpro
           icon: fa-solid fa-school
@@ -88,7 +90,6 @@
 - section: Work
   categories:
     - name: TODO
-      icon: 
       sites:
         - name: TODO
         - name: TODO
@@ -96,7 +97,6 @@
 - section: Miscellaneous
   categories:
     - name: TODO
-      icon: 
       sites:
         - name: TODO
         - name: TODO
