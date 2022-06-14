@@ -185,7 +185,7 @@
         - name: Runbooks
           icon: fa-brands fa-bitbucket
           url: https://bitbucket.org/portbasebv/wow/src/160f29ce1c5a985c9468172b26a0aac1a0198024/devops/runbooks/README.md
-    - name: Trello
+    - name: Atlassian Trello
       sites:
         - name: Trello
           icon: fa-brands fa-trello
