@@ -11,9 +11,21 @@
         - name: OpenSubtitles
           icon: bi bi-badge-cc
           url: https://www.opensubtitles.org/nl
+        - name: Spotify
+          icon: bi bi-spotify
+          url: https://open.spotify.com/
+        - name: KPN iTV
+          icon: bi bi-tv
+          url: https://tv.kpn.com/
+        - name: Netflix
+          icon: bi bi-film
+          url: https://www.netflix.com/browse
 
     - name: SaaS
       sites:
+        - name: GitHub
+          icon: fa-brands fa-github
+          url: https://github.com
         - name: AWS Console
           icon: fa-brands fa-aws
           url: https://eu-west-1.console.aws.amazon.com/console/
@@ -26,6 +38,9 @@
         - name: PagerDuty
           icon: fa-solid fa-pager
           url: https://mdekort.eu.pagerduty.com
+        - name: ProtonMail
+          icon: fa-solid fa-lock
+          url: https://protonmail.com/
         - name: Backblaze B2
           icon: bi bi-hdd
           url: https://secure.backblaze.com
@@ -75,28 +90,173 @@
           icon: bi bi-file-arrow-down-fill
           url: https://rarbg.to
 
-    - name: Miscellaneous
+    - name: School
       sites:
         - name: TSOpro
           icon: fa-solid fa-school
           url: https://marcopolo.tsopro.nl/
+        - name: SocialSchools
+          icon: fa-solid fa-atom
+          url: https://app.socialschools.eu/home
+        - name: Marco Polo FB
+          icon: bi bi-facebook
+          url: https://www.facebook.com/bsmarcopolo/
+
+    - name: Miscellaneous
+      sites:
         - name: Syncthing local
           icon: fa-solid fa-rotate
           url: http://127.0.0.1:8384/
         - name: MijnGezondheid
           icon: fa-solid fa-house-medical
           url: https://home.mijngezondheid.net/
+        - name: ABN AMRO
+          icon: bi bi-cash-coin
+          url: https://www.abnamro.nl/portalserver/mijn-abnamro/mijn-overzicht/overzicht/index.html
+        - name: Credit Card Online
+          icon: bi bi-credit-card
+          url: https://www.icscards.nl/abnamro/login
 
 - section: Work
   categories:
-    - name: TODO
+    - name: Important
       sites:
-        - name: TODO
-        - name: TODO
+        - name: Webmail
+          icon: bi bi-envelope-paper
+          url: https://mail.portbase.com/
+        - name: DevOps Portal
+          icon: bi bi-file-code
+          url: https://portbase.io
+    - name: Corporate
+      sites:
+        - name: Recruitee
+          icon: bi bi-globe
+          url: https://app.recruitee.com/#/dashboard/overview
+        - name: Connect
+          icon: bi bi-building
+          url: https://connect.portbase.com/welcome
+        - name: AFAS
+          icon: bi bi-server
+          url: https://90606.afasinsite.nl/
+        - name: TruQu
+          icon: bi bi-bar-chart-fill
+          url: https://portbase.truqu.com/app/dashboard
+    - name: CI/CD
+      sites:
+        - name: Jenkins
+          icon: fa-brands fa-jenkins
+          url: https://jenkins.portbase.io
+        - name: Artifactory
+          icon: fa-solid fa-frog
+          url: https://artifactory.portbase.io
+        - name: Sonar
+          icon: bi bi-radioactive
+          url: https://sonar.portbase.io
+    - name: Atlassian JIRA
+      sites:
+        - name: JIRA
+          icon: fa-brands fa-jira
+          url: https://portbasebv.atlassian.net
+        - name: FPL
+          icon: fa-brands fa-jira
+          url: https://portbasebv.atlassian.net/browse/FPL
+        - name: PCS
+          icon: fa-brands fa-jira
+          url: https://portbasebv.atlassian.net/browse/PCS
+        - name: DevOps
+          icon: fa-brands fa-jira
+          url: https://portbasebv.atlassian.net/browse/DOG
+    - name: Atlassian Confluence
+      sites:
+        - name: Confluence
+          icon: fa-brands fa-confluence
+          url: https://portbasebv.atlassian.net/wiki/
+        - name: Post Mortems
+          icon: fa-brands fa-confluence
+          url: https://portbasebv.atlassian.net/wiki/spaces/POS/overview
+    - name: Atlassian Bitbucket
+      sites:
+        - name: Bitbucket
+          icon: fa-brands fa-bitbucket
+          url: https://bitbucket.org/portbasebv/
+        - name: Way of Working
+          icon: fa-brands fa-bitbucket
+          url: https://bitbucket.org/portbasebv/wow/src/master/devops/setup.md
+        - name: Runbooks
+          icon: fa-brands fa-bitbucket
+          url: https://bitbucket.org/portbasebv/wow/src/160f29ce1c5a985c9468172b26a0aac1a0198024/devops/runbooks/README.md
+    - name: Trello
+      sites:
+        - name: Trello
+          icon: fa-brands fa-trello
+          url: https://trello.com/
+        - name: OR Board
+          icon: fa-brands fa-trello
+          url: https://trello.com/b/X2VKzixM/portbase-or
+        - name: DevOps Board
+          icon: fa-brands fa-trello
+          url: https://trello.com/b/KpXVNzQh/guild
+    - name: Logging & Monitoring
+      sites:
+        - name: New Relic
+          icon: fa-solid fa-eye
+          url: https://rpm.newrelic.com/accounts/1847099/setup
+        - name: OpsGenie
+          icon: bi bi-person-fill
+          url: https://portbase.app.opsgenie.com/
+    - name: SaaS
+      sites:
+        - name: CloudFlare
+          icon: fa-solid fa-cloud
+          url: https://dash.cloudflare.com/
+        - name: Auth0
+          icon: bi bi-shield-fill
+          url: https://manage.auth0.com/
+        - name: Lucid
+          icon: fa-solid fa-chart-area
+          url: https://lucid.app/
+        - name: Apigee
+          icon: bi bi-nut-fill
+          url: https://apigee.com/edge
+        - name: Apigee Support
+          icon: fa-solid fa-headset
+          url: https://apigee.secure.force.com/portal/
+    - name: VLTrader
+      sites:
+        - name: PROD 1
+          icon: bi bi-envelope
+          url: https://messaging.pcs.portbase.com:5081/VLTrader
+        - name: PROD 2
+          icon: bi bi-envelope
+          url: https://messaging.pcs.portbase.com:5082/VLTrader
+        - name: ACCEPT 1
+          icon: bi bi-envelope
+          url: https://messaging.accept.portbase.com:5081/VLTrader
+        - name: ACCEPT 2
+          icon: bi bi-envelope
+          url: https://messaging.accept.portbase.com:5082/VLTrader
+        - name: KT
+          icon: bi bi-envelope
+          url: https://messaging.kt.portbase.com:5081/VLTrader
+        - name: SC
+          icon: bi bi-envelope
+          url: https://messaging.sc.portbase.com:5081/VLTrader
+        - name: STC
+          icon: bi bi-envelope
+          url: https://messaging.stc.portbase.com:5081/VLTrader
+    - name: Ondernemingsraad
+      sites:
+        - name: WOR
+          icon: fa-solid fa-scale-balanced
+          url: https://wetten.overheid.nl/BWBR0002747/2017-09-01#HoofdstukIII_Artikel18
+        - name: OR reglement
+          icon: fa-solid fa-gavel
+          url: https://portbasebv.atlassian.net/wiki/download/attachments/229212223/Reglement%20Portbase%20OR%20v1.0.pdf?api=v2
 
 - section: Miscellaneous
   categories:
-    - name: TODO
+    - name: Security
       sites:
-        - name: TODO
-        - name: TODO
+        - name: VirusTotal
+          icon: fa-solid fa-virus
+          url: https://www.virustotal.com/
