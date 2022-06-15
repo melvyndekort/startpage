@@ -8,6 +8,9 @@
         - name: Jellyfin
           icon: bi bi-collection-play
           url: https://lmserver.mdekort.nl/jellyfin
+        - name: Booksonic-Air
+          icon: fa-solid fa-book
+          url: https://lmserver.mdekort.nl/booksonic
         - name: OpenSubtitles
           icon: bi bi-badge-cc
           url: https://www.opensubtitles.org/nl
