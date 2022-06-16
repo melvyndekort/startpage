@@ -51,10 +51,10 @@
           icon: bi bi-envelope-slash
           url: https://app.easydmarc.com
         - name: ForwardEmail
-          icon: bi bi-forward
+          icon: fa-solid fa-ghost
           url: https://forwardemail.net/en/my-account/domains
         - name: ImprovMX
-          icon: bi bi-forward
+          icon: fa-solid fa-ship
           url: https://app.improvmx.com
         - name: Linktree
           icon: bi bi-link
@@ -66,13 +66,13 @@
           icon: bi bi-router
           url: http://lmrouter.mdekort.nl
         - name: Pi-hole
-          icon: fa-solid fa-rectangle-ad
+          icon: fa-brands fa-raspberry-pi
           url: http://pihole.mdekort.nl/admin/
         - name: Tuinhuis MoOde
-          icon: bi bi-music-note
+          icon: bi bi-music-note-list
           url: http://tuinhuis.mdekort.lan
         - name: TP-Link Repeater
-          icon: fa-solid fa-house-signal
+          icon: bi bi-wifi
           url: http://tplinkrepeater.net
 
     - name: NZB
