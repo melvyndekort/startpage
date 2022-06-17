@@ -44,6 +44,9 @@
         - name: PagerDuty
           icon: fa-solid fa-pager
           url: https://mdekort.eu.pagerduty.com
+        - name: Netlify
+          icon: fa-solid fa-browser
+          url: https://app.netlify.com
         - name: ProtonMail
           icon: fa-solid fa-lock
           url: https://protonmail.com
