@@ -32,6 +32,9 @@
         - name: AWS Console
           icon: fa-brands fa-aws
           url: https://eu-west-1.console.aws.amazon.com/console/
+        - name: Cloudflare
+          icon: fa-brands fa-cloudflare
+          url: https://dash.cloudflare.com
         - name: Humio
           icon: fa-brands fa-earlybirds
           url: https://cloud.humio.com/sandbox/dashboards/UysIYLnaNM3zr5oxgai9BLjIHqcJyuRr
@@ -256,10 +259,23 @@
           icon: fa-solid fa-gavel
           url: https://portbasebv.atlassian.net/wiki/download/attachments/229212223/Reglement%20Portbase%20OR%20v1.0.pdf?api=v2
 
-- section: Miscellaneous
+- section: DevSecOps
   categories:
+    - name: Tools
+      sites:
+        - name: TinyWow
+          icon: bi bi-filetype-pdf
+          url: https://tinywow.com
     - name: Security
       sites:
         - name: VirusTotal
           icon: fa-solid fa-virus
-          url: https://www.virustotal.com/
+          url: https://www.virustotal.com
+    - name: Icons
+      sites:
+        - name: FontAwesome
+          icon: fa-brands fa-font-awesome
+          url: https://fontawesome.com/icons
+        - name: Bootstrap Icons
+          icon: bi bi-bootstrap
+          url: https://icons.getbootstrap.com
