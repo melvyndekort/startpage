@@ -10,9 +10,9 @@ layout: default
         </h3>
         <div class="row row-cols-auto">
             {% for site in category.sites %}
-              <div class="col g-3">
+              <div class="col gx-3">
                 <a href="{{ site.url }}" class="link-pink text-decoration-none fs-6">
-                  <div class="bookmark p-3 bg-secondary bg-gradient rounded-3 border-start border-3 border-primary shadow">
+                  <div class="bookmark mb-3 p-3 bg-secondary bg-gradient rounded-3 border-start border-3 border-primary shadow">
                     {% if site.icon %}
                       <i class="{{ site.icon }}"></i>&nbsp;
                     {% endif %}
