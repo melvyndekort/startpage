@@ -41,6 +41,9 @@
         - name: Datadog
           icon: fa-solid fa-dog
           url: https://app.datadoghq.eu
+        - name: Snyk
+          icon: fa-solid fa-shield-dog
+          url: https://app.snyk.io
         - name: PagerDuty
           icon: fa-solid fa-pager
           url: https://mdekort.eu.pagerduty.com
