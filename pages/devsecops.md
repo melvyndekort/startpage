@@ -1,4 +1,0 @@
----
-title: DevSecOps
-layout: data
----

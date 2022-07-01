@@ -1,0 +1,7 @@
+[build]
+  base = "src/"
+  command = "npm install && npm run build"
+  publish = "public"
+
+[build.environment]
+  GO_VERSION = "1.12"

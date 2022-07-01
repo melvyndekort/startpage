@@ -1,0 +1,35 @@
+{{ define "main" }}
+<div class="container-fluid py-4 bg-background">
+  <div class="container my-3">
+    {{ partial "searchbox" (dict "engine" "DuckDuckGo" "link" "https://duckduckgo.com/" "focus" true) }}
+  </div>
+  <div class="container my-3">
+    {{ partial "searchbox" (dict "engine" "Google" "link" "https://google.com/search" "focus" false) }}
+  </div>
+</div>
+<div class="container my-4">
+  {{ range .Site.Data.bookmarks }}
+    {{ if eq .section $.Page.Title }}
+      {{ range .categories }}
+        <h3 class="pt-4 text-purple fw-bold font-monospace">
+          {{ .name }}
+        </h3>
+        <div class="row row-cols-auto">
+          {{ range .sites }}
+            <div class="col gx-2">
+              <a href="{{ .url }}" class="link-pink text-decoration-none fs-6">
+                <div class="bookmark mb-2 p-3 bg-secondary bg-gradient rounded-3 border-start border-3 border-primary shadow">
+                  {{ if .icon }}
+                    <i class="{{ .icon }}"></i>&nbsp;
+                  {{ end }}
+                  {{ .name }}
+                </div>
+              </a>
+            </div>
+          {{ end }}
+        </div>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+</div>
+{{ end }}

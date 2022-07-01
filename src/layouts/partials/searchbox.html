@@ -1,0 +1,6 @@
+<form class="search" action="{{ .link }}" method="get">
+  <div class="input-group mx-auto w-75">
+    <input type="text" name="q" class="form-control bg-background border-purple text-light" placeholder="{{ .engine }}" aria-label="{{ .engine }}" aria-describedby="button-addon2"{{ if .focus }} autofocus{{ end }}>
+    <button class="btn btn-outline-purple" type="submit">Search</button>
+  </div>
+</form>

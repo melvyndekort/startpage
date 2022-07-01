@@ -1,0 +1,28 @@
+{
+  "name": "startpage",
+  "version": "1.0.0",
+  "description": "A custom startpage with all my important links",
+  "main": "index.html",
+  "scripts": {
+    "clean": "rm -rf node_modules public .hugo_build.lock go.sum resources",
+    "dev": "HUGO_MODULE_REPLACEMENTS='github.com/melvyndekort/dracula-hugo-theme -> ../../../dracula-hugo-theme' hugo server --watch --disableFastRender --gc",
+    "dev:drafts": "HUGO_MODULE_REPLACEMENTS='github.com/melvyndekort/dracula-hugo-theme -> ../../../dracula-hugo-theme' hugo server --watch --disableFastRender --gc --buildFuture --buildDrafts",
+    "build": "hugo --gc --cleanDestinationDir --minify",
+    "start": "HUGO_MODULE_REPLACEMENTS='github.com/melvyndekort/dracula-hugo-theme -> ../../../dracula-hugo-theme' hugo server --watch --cleanDestinationDir --disableFastRender --gc --minify --renderToDisk",
+    "start:drafts": "HUGO_MODULE_REPLACEMENTS='github.com/melvyndekort/dracula-hugo-theme -> ../../../dracula-hugo-theme' hugo server --watch --cleanDestinationDir --disableFastRender --gc --minify --buildFuture --buildDrafts --renderToDisk",
+    "update-modules": "hugo mod get -u",
+    "npm-check": "npm-check -u"
+  },
+  "author": "Melvyn de Kort",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "hugo-extended": "^0.101.0",
+    "npm-check": "^5.9.2",
+    "postcss": "^8.3.6",
+    "postcss-cli": "^10.0.0"
+  }
+}
