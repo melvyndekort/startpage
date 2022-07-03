@@ -11,3 +11,9 @@
   to = "/main/"
   status = 302
   force = true
+
+[[redirects]]
+  from = "/index.html"
+  to = "/main/"
+  status = 302
+  force = true
