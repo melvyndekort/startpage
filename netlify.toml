@@ -8,12 +8,12 @@
 
 [[redirects]]
   from = "/"
-  to = "/main/"
+  to = "/main"
   status = 302
   force = true
 
 [[redirects]]
   from = "/index.html"
-  to = "/main/"
+  to = "/main"
   status = 302
   force = true
