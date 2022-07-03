@@ -5,3 +5,8 @@
 
 [build.environment]
   GO_VERSION = "1.12"
+
+[[redirects]]
+  from = "/index.html"
+  to = "/main/"
+  status = 302
