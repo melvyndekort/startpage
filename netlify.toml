@@ -10,3 +10,4 @@
   from = "/"
   to = "/main/"
   status = 302
+  force = true
