@@ -1,9 +1,10 @@
 resource "netlify_site" "site" {
-  name = "startpage-mdekort-nl"
+  name          = var.name
+  custom_domain = var.domain_name
 
   repo {
     repo_branch = "main"
     provider    = "github"
-    repo_path   = "melvyndekort/startpage"
+    repo_path   = var.repo
   }
 }
