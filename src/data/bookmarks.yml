@@ -50,6 +50,9 @@
         - name: Netlify
           icon: fa-solid fa-diamond
           url: https://app.netlify.com
+        - name: StreamNative
+          icon: fa-solid fa-cloud-word
+          url: https://console.streamnative.cloud
         - name: ProtonMail
           icon: fa-solid fa-lock
           url: https://protonmail.com
